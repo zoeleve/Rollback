@@ -52,7 +52,7 @@ def list_github_packages(owner, repo, token):
 
 
 if __name__ == "__main__":
-    OWNER = input("zoeleve")
-    REPO = input("Test")
-    TOKEN = input("ghcr login")
+    OWNER = input("GH_USER")
+    REPO = input("GH_REPO")
+    TOKEN = input("GH_PAT")
     list_github_packages(OWNER, REPO, TOKEN)
