@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "custom-cd-tool"
+version = "0.1.0"
+description = ""
+authors = ["zlevesanou <zlevesanou@core-innnovation.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+logging = "^0.4.9.6"
+sqlmodel = "^0.0.14"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+flake8 = "^7.0.0"
+black = "^24.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
